@@ -9,3 +9,6 @@ funktionalitet som att synka data mot en server, lägga till betalkort, inkomste
 Den här appen löser problement - en simpel ekonomiap, mycket lätt för en äldre persion (tex) som vill kunna lägga in
 sina inköp digital istället för att skriva in detta i almanackan - och inte minst ett användarvänligt UI men som följer
 material designs riktlinjer.
+
+https://xd.adobe.com/view/16d875aa-595b-4030-5722-318e8c090d80-60e9/?fbclid=IwAR0nkcCmN3PS83K87CEaEvPrJaHrCPFVNLHWEWO6Ct9NJK11ixHJ7eBiATg
+
