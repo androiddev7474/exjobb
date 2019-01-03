@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalculatorActivity">
+
+
+    <TextView
+        android:id="@+id/calc_display"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/size_of_displayed_content"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="4"
+            android:columnCount="4"
+
+            >
+
+            <!-- rad 1 - division, 7, 8, 9 -->
+
+            <ImageView
+                android:layout_width="@dimen/size_keyboard_operands"
+                android:layout_height="@dimen/size_keyboard_operands"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/div"
+                android:onClick="onButtonClick"
+                android:tag="/"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/calc_button_size"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/n7"
+                android:onClick="onButtonClick"
+                android:tag="7"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/calc_button_size"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/n8"
+                android:onClick="onButtonClick"
+                android:tag="8"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/calc_button_size"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/n9"
+                android:onClick="onButtonClick"
+                android:tag="9"
+                />
+
+
+            <!-- rad 2 - mult., 4, 5, 6 -->
+
+            <ImageView
+                android:layout_width="@dimen/size_keyboard_operands"
+                android:layout_height="@dimen/size_keyboard_operands"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/mult"
+                android:onClick="onButtonClick"
+                android:tag="*"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/calc_button_size"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/n4"
+                android:onClick="onButtonClick"
+                android:tag="4"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/calc_button_size"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/n5"
+                android:onClick="onButtonClick"
+                android:tag="5"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/calc_button_size"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/n6"
+                android:onClick="onButtonClick"
+                android:tag="6"
+                />
+
+
+            <!-- rad 3 - minus, 1, 2, 3 -->
+
+            <ImageView
+                android:layout_width="@dimen/size_keyboard_operands"
+                android:layout_height="@dimen/size_keyboard_operands"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/sub"
+                android:onClick="onButtonClick"
+                android:tag="-"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/calc_button_size"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/n1"
+                android:onClick="onButtonClick"
+                android:tag="1"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/calc_button_size"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/n2"
+                android:onClick="onButtonClick"
+                android:tag="2"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/calc_button_size"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/n3"
+                android:onClick="onButtonClick"
+                android:tag="3"
+                />
+
+
+
+            <!-- rad 4 - add, 0, comma, clear -->
+
+            <ImageView
+                android:layout_width="@dimen/size_keyboard_operands"
+                android:layout_height="@dimen/size_keyboard_operands"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/add"
+                android:onClick="onButtonClick"
+                android:tag="+"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/calc_button_size"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/n0"
+                android:onClick="onButtonClick"
+                android:tag="0"
+                />
+
+            <ImageView
+                android:id="@+id/decimalButton_id"
+                android:layout_width="@dimen/size_decimal"
+                android:layout_height="@dimen/size_decimal"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/comma"
+                android:onClick="onButtonClick"
+                android:tag="."
+                />
+
+            <ImageView
+                android:layout_width="@dimen/size_clear"
+                android:layout_height="@dimen/size_clear"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/clear"
+                android:onClick="onButtonClick"
+                android:tag="c"
+                />
+
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <!-- rad 5 - är lika med, ok-button -->
+
+            <ImageView
+                android:layout_width="@dimen/size_keyboard_operands"
+                android:layout_height="@dimen/size_keyboard_operands"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/equal"
+                android:onClick="onButtonClick"
+                android:tag="="
+                />
+
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="@dimen/calc_button_size"
+                android:src="@drawable/okbutton2"
+                android:alpha=".25"
+                android:onClick="onButtonClick"
+                android:tag="ok"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

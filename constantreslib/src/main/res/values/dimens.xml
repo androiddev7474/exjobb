@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_h1_size">23sp</dimen>
+    <dimen name="text_h2_size">20sp</dimen>
+    <dimen name="text_h3_size">18sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_icon_margin">5dp</dimen>
+    <dimen name="fragment_header_bottom_margin">15dp</dimen>
+    <dimen name="fragment_header_elevation">2dp</dimen>
+
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <ImageView
+            android:id="@+id/close_icon_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_icon_margin"
+            android:src="@drawable/close"
+            />
+
+        <!-- år -->
+        <TextView
+            android:id="@+id/year_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/text_icon_margin"
+            android:layout_marginTop="7dp"
+            android:textSize="@dimen/text_h1_size"
+            android:text="2018"
+            android:textStyle="bold"
+            />
+
+        <!-- veckodag -->
+        <TextView
+            android:id="@+id/day_month_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/year_id"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/text_icon_margin"
+            android:textSize="@dimen/text_h2_size"
+            android:text="tisdag 27 november"
+            android:textStyle="italic"
+            android:alpha="0.87"
+            android:layout_marginBottom="@dimen/text_icon_margin"
+            />
+
+
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       >
+
+       <ListView
+           android:id="@+id/year_list_id"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           >
+
+       </ListView>
+
+   </RelativeLayout>
+
+
+
+</LinearLayout>

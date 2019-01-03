@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        >
+
+
+        <TextView
+            android:id="@+id/sql_row_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_icon_margin"
+            android:textSize="@dimen/text_size"
+            />
+
+        <ImageView
+            android:id="@+id/info_icon_id"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="@dimen/text_icon_margin"
+            android:src="@drawable/clear"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/per_item_expenditure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_icon_margin"
+            android:text="000"
+            android:textSize="@dimen/text_size"
+            />
+
+        <CheckBox
+            android:id="@+id/per_item_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_icon_margin"
+            android:text="@string/remove_perday_item"
+            android:textColor="#c7c8c8"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

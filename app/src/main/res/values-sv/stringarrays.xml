@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="default_categories">
+
+        <item>RESOR</item>
+        <item>RESTAURANG</item>
+        <item>TRANSPORT</item>
+        <item>MAT</item>
+        <item>HYRA</item>
+
+    </string-array>
+
+    <array name="default_categories_imgs">
+
+        <item>travell</item>
+        <item>restaurant</item>
+        <item>transport</item>
+        <item>food</item>
+        <item>housing</item>
+
+    </array>
+
+    <array name="time_resources">
+        <item>@drawable/eternity_48</item>
+        <item>@drawable/year_48</item>
+        <item>@drawable/month_48</item>
+        <item>@drawable/week_48</item>
+        <item>@drawable/now</item>
+    </array>
+
+    <array name="time_labels">
+        <item>hela perioden</item>
+        <item>innevarande år</item>
+        <item>innevarande månad</item>
+        <item>innevarande vecka</item>
+        <item>idag</item>
+    </array>
+
+
+
+    <array name="month">
+
+        <item>JANUARI</item>
+        <item>FEBRUARI</item>
+        <item>MARS</item>
+        <item>APRIL</item>
+        <item>MAJ</item>
+        <item>JUNI</item>
+        <item>JULI</item>
+        <item>AUGUSTI</item>
+        <item>SEPTEMBER</item>
+        <item>OKTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+    </array>
+
+
+    <!-- ikonset -->
+    <array name="icons_drawable">
+        <item>@drawable/alcohol</item>
+        <item>@drawable/alcohol_drunk</item>
+        <item>@drawable/default_image</item>
+        <item>@drawable/food</item>
+        <item>@drawable/transport</item>
+        <item>@drawable/restaurant</item>
+        <item>@drawable/travell</item>
+        <item>@drawable/travel_palm</item>
+        <item>@drawable/housing</item>
+        <item>@drawable/shopping</item>
+        <item>@drawable/beer</item>
+        <item>@drawable/beer2</item>
+        <item>@drawable/fiat</item>
+        <item>@drawable/fish</item>
+        <item>@drawable/dancing</item>
+        <item>@drawable/champagne</item>
+        <item>@drawable/rice</item>
+        <item>@drawable/house</item>
+
+    </array>
+
+
+    <array name="icons_drawable_names">
+        <item>alcohol</item>
+        <item>alcohol_drunk</item>
+        <item>default_image</item>
+        <item>food</item>
+        <item>transport</item>
+        <item>restaurant</item>
+        <item>travell</item>
+        <item>travel_palm</item>
+        <item>housing</item>
+        <item>shopping</item>
+        <item>beer</item>
+        <item>beer2</item>
+        <item>fiat</item>
+        <item>fish</item>
+        <item>dancing</item>
+        <item>champagne</item>
+        <item>rice</item>
+        <item>house</item>
+    </array>
+
+
+</resources>

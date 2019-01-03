@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context="sun.bob.mcalendarviewtest.ExpMainActivity"
+    >
+
+    <include layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/date_year_label_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/date_weekday_label_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_year_label_id"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/date_month_label_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+        <sun.bob.mcalendarview.views.WeekColumnView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp" />
+
+        <sun.bob.mcalendarview.views.ExpCalendarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/calendar"
+            tools:context=".CalendarActivity"
+            />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="tag_calendar_ok"
+            android:onClick="onCalendarOKcancel"
+            android:src="@drawable/ok_check"
+            android:elevation="5dp"
+
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

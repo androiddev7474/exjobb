@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rel_layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:elevation="2dp"
+        >
+
+        <TextView
+            android:id="@+id/header_label_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/icon_margin"
+            android:layout_centerHorizontal="true"
+            android:text="LABEL"
+            android:textSize="@dimen/text_h3_size"
+            />
+
+        <TextView
+            android:id="@+id/header_date_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header_label_id"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/icon_margin"
+            android:textSize="@dimen/text_size"
+            android:textStyle="italic"
+            android:text="0000-00-00"
+            />
+
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:id="@+id/per_day_listview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rel_layout_header"
+        >
+    </ListView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/per_day_listview_id"
+        android:orientation="horizontal"
+            >
+
+        <Button
+            android:id="@+id/ok_perdayfragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            />
+
+        <Button
+            android:id="@+id/cancel_perdayfragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

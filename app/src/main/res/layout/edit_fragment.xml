@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="6"
+        android:layout_gravity="right"
+        >
+
+        <ImageView
+            android:id="@+id/backward_id"
+            android:layout_width="@dimen/edit_frag_icon_size"
+            android:layout_height="@dimen/edit_frag_icon_size"
+            android:layout_margin="@dimen/icon_margin"
+            android:alpha="@dimen/icon_material_alpha"
+            android:src="@drawable/backward"
+            />
+
+        <ImageView
+            android:id="@+id/forward_id"
+            android:layout_width="@dimen/edit_frag_icon_size"
+            android:layout_height="@dimen/edit_frag_icon_size"
+            android:layout_margin="@dimen/icon_margin"
+            android:alpha="@dimen/icon_material_alpha"
+            android:src="@drawable/forward"
+            />
+
+        <ImageView
+            android:id="@+id/now_iv"
+            android:layout_width="@dimen/edit_frag_icon_size"
+            android:layout_height="@dimen/edit_frag_icon_size"
+            android:layout_margin="@dimen/icon_margin"
+            android:alpha="@dimen/icon_material_alpha"
+            android:src="@drawable/now"
+            />
+
+        <ImageView
+            android:id="@+id/calendar_iv"
+            android:layout_width="@dimen/edit_frag_icon_size"
+            android:layout_height="@dimen/edit_frag_icon_size"
+            android:layout_margin="@dimen/icon_margin"
+            android:alpha="@dimen/icon_material_alpha"
+            android:src="@drawable/calendar"
+            android:tag="calendar_tag"
+            />
+
+        <ImageView
+            android:id="@+id/add_iv"
+            android:layout_width="@dimen/edit_frag_icon_size"
+            android:layout_height="@dimen/edit_frag_icon_size"
+            android:layout_margin="@dimen/icon_margin"
+            android:alpha="@dimen/icon_material_alpha"
+            android:src="@drawable/add"
+            />
+
+        <ImageView
+            android:id="@+id/edit_iv"
+            android:layout_width="@dimen/edit_frag_icon_size"
+            android:layout_height="@dimen/edit_frag_icon_size"
+            android:layout_margin="@dimen/icon_margin"
+            android:alpha="@dimen/icon_material_alpha"
+            android:src="@drawable/edit2"
+            android:tag="calculator_tag"
+
+
+            />
+    </GridLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00-00-00"
+            android:textSize="@dimen/text_h3_size"
+            />
+
+        <TextView
+            android:id="@+id/total_expenditure_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/date_tv"
+            android:layout_marginLeft="@dimen/icon_margin"
+            android:textSize="@dimen/text_h3_size"
+            android:text="000"
+            android:textStyle="bold"
+            />
+
+
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/edit_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="5dp"
+        android:numColumns="3"
+
+
+        />
+
+
+
+
+
+
+</LinearLayout>

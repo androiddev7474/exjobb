@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="edit_frag_icon_size">35dp</dimen>
+    <dimen name="icon_material_alpha">0.7</dimen>
+    <dimen name="icon_margin">10dp</dimen>
+
+
+</resources>
