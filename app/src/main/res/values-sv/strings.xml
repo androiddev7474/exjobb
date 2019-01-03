@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UTGIFTSDAGBOK</string>
+
+    <string name="edit_tab">BOKFÖR</string>
+    <string name="summary_tab">SAMMANSTÄLLNING</string>
+
+
+    <string name="whole_period">HELA PERIODEN</string>
+    <string name="current_year">INNEVARANDE ÅR</string>
+    <string name="current_month">INNEVARANDE MÅNAD</string>
+    <string name="current_week">INNEVARANDE VECKA</string>
+
+    <string name="exp_summary">TOTAL: </string>
+
+    <string name="no_list_content">Inga data tillgängliga i nuläget.</string>
+
+    <!-- RemoveCatFragment  -->
+    <string name="remove_info">Är det säkert att du vill ta bort aktuell kategori?</string>
+
+    <!-- AddEditActivity, EditCategoryActivity -->
+    <string name="edit_category_label">Redigera utgiftspost</string>
+    <string name="add_category_label">Lägg till utgiftspost</string>
+    <string name="add_category_hint">ny kategori</string>
+
+    <string name="remove_perday_item">ta bort</string>
+    <string name="notes_Label">Noteringar</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout_header_unitfragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <ImageView
+            android:id="@+id/unitfrag_close_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/no_listcontent_info_unitgfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_header_unitfragment"
+        android:layout_margin="@dimen/text_icon_margin"
+        android:visibility="visible"
+        android:text="@string/no_list_content"
+        />
+
+    <ExpandableListView
+        android:id="@+id/date_exp_listview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_header_unitfragment"
+        android:groupIndicator="@null"
+        android:childIndicator="@null"
+        android:visibility="gone"
+        >
+    </ExpandableListView>
+
+
+</RelativeLayout>

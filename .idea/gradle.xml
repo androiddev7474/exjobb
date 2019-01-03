@@ -9,6 +9,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/calculatormod" />
+            <option value="$PROJECT_DIR$/calendar-lib" />
+            <option value="$PROJECT_DIR$/calendarmod" />
+            <option value="$PROJECT_DIR$/constantreslib" />
+            <option value="$PROJECT_DIR$/sqlmod" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

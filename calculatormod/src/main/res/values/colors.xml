@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b2ebf2</color>
+    <color name="colorPrimaryDark">#81b9bf</color>
+    <color name="colorPrimaryLight">#e5ffff</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- textfärger -->
+
+    <color name="operatorColor">#2f84a9</color>
+    <color name="numberColor">#05415b</color>
+
+    <color name="colorButton">#f1f1f1</color>
+    <color name="colorButtonSidepanel">#e4e5e5</color>
+
+</resources>

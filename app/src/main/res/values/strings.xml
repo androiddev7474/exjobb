@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Expenditure Diary</string>
+
+    <string name="edit_tab">EDIT</string>
+    <string name="summary_tab">SUMMARY</string>
+
+    <string name="whole_period">WHOLE PERIOD</string>
+    <string name="current_year">CURRENT YEAR</string>
+    <string name="current_month">CURRENT MONTH</string>
+    <string name="current_week">CURRENT WEEK</string>
+
+    <string name="exp_total">TOTAL: </string>
+
+    <!-- Irregfragment -->
+    <string name="no_list_content">No data to retrieve yet.</string>
+
+    <!-- RemoveCatFragment  -->
+    <string name="remove_info">Are you sure about removing this category?</string>
+
+    <!-- AddEditActivity, EditCategoryActivity -->
+    <string name="edit_category_label">Edit expenditure</string>
+    <string name="add_category_label">Add expenditure</string>
+    <string name="add_category_hint">new category</string>
+
+
+    <!-- perdayfrag-->
+    <string name="remove_perday_item">remove</string>
+    <string name="notes_Label">Notes</string>
+
 </resources>

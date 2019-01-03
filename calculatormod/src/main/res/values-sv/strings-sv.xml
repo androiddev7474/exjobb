@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="expenditure_notes">anteckningar ..</string>
+
+    <string name="toast_notif_save_comment">Dina anteckningar sparas undan tillsammans med utgifterna.</string>
+
+</resources>

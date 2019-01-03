@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="4"
+        android:layout_gravity="right"
+        >
+
+
+        <ImageView
+            android:id="@+id/datespan_id"
+            android:layout_width="@dimen/edit_frag_icon_size"
+            android:layout_height="@dimen/edit_frag_icon_size"
+            android:layout_margin="@dimen/icon_margin"
+            android:alpha="@dimen/icon_material_alpha"
+            android:src="@drawable/datespan"
+            />
+
+        <ImageView
+            android:id="@+id/yearmonth_id"
+            android:layout_width="@dimen/edit_frag_icon_size"
+            android:layout_height="@dimen/edit_frag_icon_size"
+            android:layout_margin="@dimen/icon_margin"
+            android:alpha="@dimen/icon_material_alpha"
+            android:src="@drawable/yearmonth"
+            android:tag="calendar_tag"
+            />
+
+        <Switch
+            android:id="@+id/switch_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="listvy"
+            />
+
+    </GridLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rel_layout_irregdate_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/period_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="period name"
+            android:textSize="@dimen/text_h2_size"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/period_date_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/period_name_id"
+            android:text="period date"
+            android:textSize="@dimen/text_h3_size"
+            android:gravity="center_horizontal"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_layout_unitdate_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/summary_month_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/text_h3_size"
+            />
+
+        <TextView
+            android:id="@+id/summary_year_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/summary_month_id"
+            android:text=""
+            android:textSize="@dimen/text_h3_size"
+            />
+
+    </RelativeLayout>
+
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       >
+
+        <TextView
+            android:id="@+id/exp_summary_label_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/exp_total"
+            android:textSize="@dimen/text_h3_size"
+            />
+
+        <TextView
+            android:id="@+id/exp_summary_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/exp_summary_label_id"
+            android:layout_marginLeft="@dimen/icon_margin"
+            android:text="0"
+            android:textSize="@dimen/text_h3_size"
+            android:textStyle="bold"
+            />
+
+   </RelativeLayout>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart_1"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:visibility="gone"
+        >
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+    <ListView
+        android:id="@+id/expenditure_listview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/fragment_header_bottom_margin"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/fragment_header_elevation"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/lin_layout_header_iconsfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+
+            >
+
+        <ImageView
+            android:id="@+id/header_icon_iconsfrag"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/default_image"
+            />
+
+        <TextView
+            android:id="@+id/header_label_iconsfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="IKONER"
+            android:textSize="@dimen/text_h2_size"
+            android:textStyle="bold"
+            />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/lin_layout_header_iconsfrag"
+            android:layout_marginBottom="@dimen/text_icon_margin"
+            android:text="Välj ikon och klick klicka på ok"
+            android:textSize="@dimen/text_size"
+            android:textStyle="italic"
+            />
+
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/icons_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="10dp"
+        android:numColumns="4"
+        >
+
+    </GridView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remove_info_text_id"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:onClick="onOKcancelClick"
+            android:tag="remove ok iconsfragment"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/remove_info_text_id"
+            android:text="CANCEL"
+            android:onClick="onOKcancelClick"
+            android:tag="remove cancel iconsfragment"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

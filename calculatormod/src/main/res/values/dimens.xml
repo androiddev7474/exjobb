@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calc_button_size">70dp</dimen>
+    <dimen name="size_of_displayed_content">35sp</dimen>
+    <dimen name="size_keyboard_operands">40dp</dimen>
+    <dimen name="size_decimal">40dp</dimen>
+    <dimen name="size_clear">5dp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+</resources>

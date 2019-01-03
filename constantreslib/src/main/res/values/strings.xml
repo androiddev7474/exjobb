@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ConstantResLib</string>
+
+
+    <!-- REQUESTCODES -->
+    <string name="REQUESTCODE_CALENDAR">1</string>
+    <string name="REQUESTCODE_CALCULATOR">2</string>
+
+    <!-- SharedPreferenses, EditFragment (första gången appen startas skapas några defaultkategorier) -->
+    <string name="INIT_TABLE_CATEGORIES">default_categories</string>
+    <string name="TABLE_CATEGORIES_BOOLEAN">table_categories_boolean</string> <!-- boolsk variabel som talar om huruvida defaultkategorierna redan skapats eller inte -->
+
+    <!-- Taggar -->
+    <string name="ICON_CATEGORY_TAG">category_icon_tag</string> <!-- tag för kategori-ikon (EditFragment onItemClick) -->
+    <string name="CALCULATOR_OK">ok</string>
+    <string name="CALCULATOR_CLEAR">c</string>
+    <string name="OK_CALENDAR">tag_calendar_ok</string>
+    <string name="CANCEL_CALENDAR">tag_calendar_cancel</string>
+
+
+    <!-- Intents -->
+    <string name="INTENT_PUT_CATEGORY">category</string> <!-- EditFragment -->
+    <string name="INTENT_PUT_IMAGE_RES">imageres</string> <!-- EditFragment -->
+    <string name="INTENT_PUT_DATE">date</string> <!-- EditFragment -->
+    <string name="INTENT_GETACTION_NAME">comment_broadcast</string>
+
+    <!-- Intent results -->
+    <string name="RESULT_DATE">result_date</string>
+
+
+    <!-- Bundle arguments -->
+    <string name="CALCULATOR_COMMENT">comment</string>
+    <string name="COMMENT_OK">okpressed</string>
+
+
+</resources>

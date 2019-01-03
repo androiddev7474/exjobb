@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="default_categories">
+        <item>TRAVEL</item>
+        <item>RESTAURANG</item>
+        <item>TRANSPORT</item>
+        <item>MAT</item>
+        <item>HYRA</item>
+
+    </string-array>
+
+    <array name="default_categories_imgs">
+
+        <item>travell</item>
+        <item>restaurant</item>
+        <item>transport</item>
+        <item>food</item>
+        <item>housing</item>
+
+    </array>
+
+    <array name="time_resources">
+        <item>@drawable/eternity_48</item>
+        <item>@drawable/year_48</item>
+        <item>@drawable/month_48</item>
+        <item>@drawable/week_48</item>
+        <item>@drawable/now</item>
+    </array>
+
+    <array name="time_labels">
+        <item>whole period</item>
+        <item>current year</item>
+        <item>current month</item>
+        <item>current week</item>
+        <item>today</item>
+    </array>
+
+
+    <array name="month">
+
+        <item>JANUARY</item>
+        <item>FEBRUARY</item>
+        <item>MARCH</item>
+        <item>APRIL</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OCTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+    </array>
+
+
+
+
+
+
+</resources>
