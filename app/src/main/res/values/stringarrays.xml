@@ -54,7 +54,50 @@
     </array>
 
 
+    <!-- ikonset -->
+    <array name="icons_drawable">
+        <item>@drawable/alcohol</item>
+        <item>@drawable/alcohol_drunk</item>
+        <item>@drawable/default_image</item>
+        <item>@drawable/food</item>
+        <item>@drawable/transport</item>
+        <item>@drawable/restaurant</item>
+        <item>@drawable/travell</item>
+        <item>@drawable/travel_palm</item>
+        <item>@drawable/housing</item>
+        <item>@drawable/shopping</item>
+        <item>@drawable/beer</item>
+        <item>@drawable/beer2</item>
+        <item>@drawable/fiat</item>
+        <item>@drawable/fish</item>
+        <item>@drawable/dancing</item>
+        <item>@drawable/champagne</item>
+        <item>@drawable/rice</item>
+        <item>@drawable/house</item>
 
+    </array>
+
+
+    <array name="icons_drawable_names">
+        <item>alcohol</item>
+        <item>alcohol_drunk</item>
+        <item>default_image</item>
+        <item>food</item>
+        <item>transport</item>
+        <item>restaurant</item>
+        <item>travell</item>
+        <item>travel_palm</item>
+        <item>housing</item>
+        <item>shopping</item>
+        <item>beer</item>
+        <item>beer2</item>
+        <item>fiat</item>
+        <item>fish</item>
+        <item>dancing</item>
+        <item>champagne</item>
+        <item>rice</item>
+        <item>house</item>
+    </array>
 
 
 
