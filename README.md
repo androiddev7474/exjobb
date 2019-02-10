@@ -12,6 +12,5 @@ material designs riktlinjer.
 
 https://xd.adobe.com/view/16d875aa-595b-4030-5722-318e8c090d80-60e9/?fbclid=IwAR0nkcCmN3PS83K87CEaEvPrJaHrCPFVNLHWEWO6Ct9NJK11ixHJ7eBiATg
 
-https://trello.com/b/YiNkL515/ekonomiapp
 
 
