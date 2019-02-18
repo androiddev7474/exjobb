@@ -15,6 +15,8 @@ Målgruppen är de som vill kunna dokumentera sina inköp över tid och där app
 
 ![alt text](http://fininfo.se/images_/exjobb_app/exjobb_img2.jpg)
 
+I Kalendern kan man välja välja datum för att tex lägga in en ny utgift. De röda punkterna visar redan inlagda utgifter vilket underlättar om man är osäker på vilka datum man eventuellt missat att registrera.
+
 
 ###### SKÄRMDUMP 3
 
