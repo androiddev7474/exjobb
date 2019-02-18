@@ -11,34 +11,35 @@ Målgruppen är de som vill kunna dokumentera sina inköp över tid och där app
 ![alt text](http://fininfo.se/images_/exjobb_app/exjobb_img1.jpg)
 
 
-###### SKÄRMDUMP 2
+###### SKÄRMDUMP 2 - kalender
 
 ![alt text](http://fininfo.se/images_/exjobb_app/exjobb_img2.jpg)
 
 I Kalendern kan man välja datum för att tex lägga in en ny utgift. De röda punkterna visar redan inlagda utgifter vilket underlättar om man är osäker på vilka datum man eventuellt missat att registrera.
 
 
-###### SKÄRMDUMP 3
+###### SKÄRMDUMP 3 - miniräknare
 
 ![alt text](http://fininfo.se/images_/exjobb_app/exjobb_img3.jpg)
 
+Miniräknare för att lägga in nya utgifter för en given kategori. Det finns även stöd för att lägga in kommentarer.
 
-###### SKÄRMDUMP 4
+###### SKÄRMDUMP 4 - sammanställning utgifter
 
 ![alt text](http://fininfo.se/images_/exjobb_app/exjobb_img4.jpg)
 
 
-###### SKÄRMDUMP 5
+###### SKÄRMDUMP 5 - sammanställning utgifter
 
 ![alt text](http://fininfo.se/images_/exjobb_app/exjobb_img5.jpg)
 
 
-###### SKÄRMDUMP 6
+###### SKÄRMDUMP 6 - sammanställning utgifter
 
 ![alt text](http://fininfo.se/images_/exjobb_app/exjobb_img6.jpg)
 
 
-###### SKÄRMDUMP 7
+###### SKÄRMDUMP 7 - skapa ny kategori
 
 ![alt text](http://fininfo.se/images_/exjobb_app/exjobb_img7.jpg)
 
