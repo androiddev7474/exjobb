@@ -77,7 +77,14 @@
         <item>@drawable/champagne</item>
         <item>@drawable/rice</item>
         <item>@drawable/house</item>
-
+        <item>@drawable/charity</item>
+        <item>@drawable/charity2</item>
+        <item>@drawable/charity3</item>
+        <item>@drawable/dining</item>
+        <item>@drawable/coffee1</item>
+        <item>@drawable/coffee2</item>
+        <item>@drawable/coffee3</item>
+        <item>@drawable/bread</item>
     </array>
 
 
@@ -100,6 +107,14 @@
         <item>champagne</item>
         <item>rice</item>
         <item>house</item>
+        <item>charity</item>
+        <item>charity2</item>
+        <item>charity3</item>
+        <item>dining</item>
+        <item>coffee1</item>
+        <item>coffee2</item>
+        <item>coffee3</item>
+        <item>bread</item>
     </array>
 
 

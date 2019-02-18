@@ -410,7 +410,7 @@ public class SummaryFragment extends android.support.v4.app.Fragment {
         PieDataSet dataSet = new PieDataSet(yValues, "");
         dataSet.setSliceSpace(3f);
         dataSet.setSelectionShift(5f);
-        dataSet.setColors(ColorTemplate.LIBERTY_COLORS);
+        dataSet.setColors(ColorTemplate.MATERIAL_COLORS);
         PieData pieData = new PieData((dataSet));
         pieData.setValueTextSize(15f);
         pieData.setValueTextColor(Color.BLACK);

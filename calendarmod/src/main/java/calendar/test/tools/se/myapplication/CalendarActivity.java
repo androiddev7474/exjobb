@@ -77,7 +77,7 @@ public class CalendarActivity extends AppCompatActivity {
                 return onOptionsItemSelected(menuItem);
             }
         });
-        toolbar.getNavigationIcon().setColorFilter(Color.BLACK, PorterDuff.Mode.SRC_IN);
+        toolbar.getNavigationIcon().setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_IN);
 
         initViews();
 

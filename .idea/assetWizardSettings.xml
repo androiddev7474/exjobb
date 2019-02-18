@@ -19,8 +19,9 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="A:\bilder\app\ekonomi\ok.png" />
-                                      <entry key="outputName" value="ok_check" />
+                                      <entry key="imageAsset" value="A:\bilder\internet\Close Window-480px\icons8-close-window-480.png" />
+                                      <entry key="outputName" value="close" />
+                                      <entry key="theme" value="CUSTOM" />
                                       <entry key="themeColor" value="ffffff" />
                                     </map>
                                   </option>
